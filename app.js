@@ -1,23 +1,20 @@
-const appName = "My App";
-console.log("Ilovaga xush kelibsiz!");
+if (condition) {
+  //  block of code to be executed if the condition is true
+} else {
+  //  block of code to be executed if the condition is false
+}
 
-let userName = "Ali";
-let age = 16;
+if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
 
-console.log("Salom, " + userName);
-console.log("Yoshingiz: " + age);
 
-let num1 = 10;
-let num2 = 5;
-
-let sum = num1 + num2;
-let difference = num1 - num2;
-let product = num1 * num2;
-let division = num1 / num2;
-
-console.log("Yig'indi: " + sum);
-console.log("Ayirma: " + difference);
-console.log("Ko'paytma: " + product);
-console.log("Bo'lish: " + division);
-
-console.log("Dastur tugadi.");
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false and condition2 is false
+}
